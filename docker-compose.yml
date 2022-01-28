@@ -1,0 +1,9 @@
+version: "1.0"
+services:
+  tomcat:
+    image: tomcat
+    ports:
+      - 8082:8080
+    build:
+      dockerfile: Dockerfile
+
